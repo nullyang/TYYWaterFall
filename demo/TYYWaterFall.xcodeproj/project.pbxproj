@@ -1,0 +1,445 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2659A0951E6E4E4500500E9B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2659A0941E6E4E4500500E9B /* main.m */; };
+		2659A0981E6E4E4500500E9B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2659A0971E6E4E4500500E9B /* AppDelegate.m */; };
+		2659A09B1E6E4E4500500E9B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2659A09A1E6E4E4500500E9B /* ViewController.m */; };
+		2659A09E1E6E4E4500500E9B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2659A09C1E6E4E4500500E9B /* Main.storyboard */; };
+		2659A0A01E6E4E4500500E9B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2659A09F1E6E4E4500500E9B /* Assets.xcassets */; };
+		2659A0A31E6E4E4500500E9B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2659A0A11E6E4E4500500E9B /* LaunchScreen.storyboard */; };
+		2659A0AE1E6E4E4500500E9B /* TYYWaterFallUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2659A0AD1E6E4E4500500E9B /* TYYWaterFallUITests.m */; };
+		2659A0BE1E6E4F6000500E9B /* UICollectionViewLayout+WaterFall.m in Sources */ = {isa = PBXBuildFile; fileRef = 2659A0BD1E6E4F6000500E9B /* UICollectionViewLayout+WaterFall.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2659A0AA1E6E4E4500500E9B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2659A0881E6E4E4500500E9B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2659A08F1E6E4E4500500E9B;
+			remoteInfo = TYYWaterFall;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2659A0901E6E4E4500500E9B /* TYYWaterFall.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TYYWaterFall.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2659A0941E6E4E4500500E9B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2659A0961E6E4E4500500E9B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2659A0971E6E4E4500500E9B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2659A0991E6E4E4500500E9B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2659A09A1E6E4E4500500E9B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2659A09D1E6E4E4500500E9B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2659A09F1E6E4E4500500E9B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2659A0A21E6E4E4500500E9B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2659A0A41E6E4E4500500E9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2659A0A91E6E4E4500500E9B /* TYYWaterFallUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TYYWaterFallUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2659A0AD1E6E4E4500500E9B /* TYYWaterFallUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TYYWaterFallUITests.m; sourceTree = "<group>"; };
+		2659A0AF1E6E4E4500500E9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2659A0BC1E6E4F6000500E9B /* UICollectionViewLayout+WaterFall.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UICollectionViewLayout+WaterFall.h"; sourceTree = "<group>"; };
+		2659A0BD1E6E4F6000500E9B /* UICollectionViewLayout+WaterFall.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UICollectionViewLayout+WaterFall.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2659A08D1E6E4E4500500E9B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2659A0A61E6E4E4500500E9B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2659A0871E6E4E4500500E9B = {
+			isa = PBXGroup;
+			children = (
+				2659A0921E6E4E4500500E9B /* TYYWaterFall */,
+				2659A0AC1E6E4E4500500E9B /* TYYWaterFallUITests */,
+				2659A0911E6E4E4500500E9B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2659A0911E6E4E4500500E9B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2659A0901E6E4E4500500E9B /* TYYWaterFall.app */,
+				2659A0A91E6E4E4500500E9B /* TYYWaterFallUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2659A0921E6E4E4500500E9B /* TYYWaterFall */ = {
+			isa = PBXGroup;
+			children = (
+				2659A0B81E6E4EA300500E9B /* TYYLayout */,
+				2659A0961E6E4E4500500E9B /* AppDelegate.h */,
+				2659A0971E6E4E4500500E9B /* AppDelegate.m */,
+				2659A0991E6E4E4500500E9B /* ViewController.h */,
+				2659A09A1E6E4E4500500E9B /* ViewController.m */,
+				2659A09C1E6E4E4500500E9B /* Main.storyboard */,
+				2659A09F1E6E4E4500500E9B /* Assets.xcassets */,
+				2659A0A11E6E4E4500500E9B /* LaunchScreen.storyboard */,
+				2659A0A41E6E4E4500500E9B /* Info.plist */,
+				2659A0931E6E4E4500500E9B /* Supporting Files */,
+			);
+			path = TYYWaterFall;
+			sourceTree = "<group>";
+		};
+		2659A0931E6E4E4500500E9B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2659A0941E6E4E4500500E9B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2659A0AC1E6E4E4500500E9B /* TYYWaterFallUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2659A0AD1E6E4E4500500E9B /* TYYWaterFallUITests.m */,
+				2659A0AF1E6E4E4500500E9B /* Info.plist */,
+			);
+			path = TYYWaterFallUITests;
+			sourceTree = "<group>";
+		};
+		2659A0B81E6E4EA300500E9B /* TYYLayout */ = {
+			isa = PBXGroup;
+			children = (
+				2659A0BC1E6E4F6000500E9B /* UICollectionViewLayout+WaterFall.h */,
+				2659A0BD1E6E4F6000500E9B /* UICollectionViewLayout+WaterFall.m */,
+			);
+			path = TYYLayout;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2659A08F1E6E4E4500500E9B /* TYYWaterFall */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2659A0B21E6E4E4500500E9B /* Build configuration list for PBXNativeTarget "TYYWaterFall" */;
+			buildPhases = (
+				2659A08C1E6E4E4500500E9B /* Sources */,
+				2659A08D1E6E4E4500500E9B /* Frameworks */,
+				2659A08E1E6E4E4500500E9B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TYYWaterFall;
+			productName = TYYWaterFall;
+			productReference = 2659A0901E6E4E4500500E9B /* TYYWaterFall.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2659A0A81E6E4E4500500E9B /* TYYWaterFallUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2659A0B51E6E4E4500500E9B /* Build configuration list for PBXNativeTarget "TYYWaterFallUITests" */;
+			buildPhases = (
+				2659A0A51E6E4E4500500E9B /* Sources */,
+				2659A0A61E6E4E4500500E9B /* Frameworks */,
+				2659A0A71E6E4E4500500E9B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2659A0AB1E6E4E4500500E9B /* PBXTargetDependency */,
+			);
+			name = TYYWaterFallUITests;
+			productName = TYYWaterFallUITests;
+			productReference = 2659A0A91E6E4E4500500E9B /* TYYWaterFallUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2659A0881E6E4E4500500E9B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = zcs_yang;
+				TargetAttributes = {
+					2659A08F1E6E4E4500500E9B = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = CAWFZ7636J;
+						ProvisioningStyle = Automatic;
+					};
+					2659A0A81E6E4E4500500E9B = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = CAWFZ7636J;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2659A08F1E6E4E4500500E9B;
+					};
+				};
+			};
+			buildConfigurationList = 2659A08B1E6E4E4500500E9B /* Build configuration list for PBXProject "TYYWaterFall" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2659A0871E6E4E4500500E9B;
+			productRefGroup = 2659A0911E6E4E4500500E9B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2659A08F1E6E4E4500500E9B /* TYYWaterFall */,
+				2659A0A81E6E4E4500500E9B /* TYYWaterFallUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2659A08E1E6E4E4500500E9B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2659A0A31E6E4E4500500E9B /* LaunchScreen.storyboard in Resources */,
+				2659A0A01E6E4E4500500E9B /* Assets.xcassets in Resources */,
+				2659A09E1E6E4E4500500E9B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2659A0A71E6E4E4500500E9B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2659A08C1E6E4E4500500E9B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2659A09B1E6E4E4500500E9B /* ViewController.m in Sources */,
+				2659A0BE1E6E4F6000500E9B /* UICollectionViewLayout+WaterFall.m in Sources */,
+				2659A0981E6E4E4500500E9B /* AppDelegate.m in Sources */,
+				2659A0951E6E4E4500500E9B /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2659A0A51E6E4E4500500E9B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2659A0AE1E6E4E4500500E9B /* TYYWaterFallUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2659A0AB1E6E4E4500500E9B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2659A08F1E6E4E4500500E9B /* TYYWaterFall */;
+			targetProxy = 2659A0AA1E6E4E4500500E9B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2659A09C1E6E4E4500500E9B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2659A09D1E6E4E4500500E9B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2659A0A11E6E4E4500500E9B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2659A0A21E6E4E4500500E9B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2659A0B01E6E4E4500500E9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2659A0B11E6E4E4500500E9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2659A0B31E6E4E4500500E9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = CAWFZ7636J;
+				INFOPLIST_FILE = TYYWaterFall/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zsc.TYYWaterFall;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2659A0B41E6E4E4500500E9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = CAWFZ7636J;
+				INFOPLIST_FILE = TYYWaterFall/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zsc.TYYWaterFall;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		2659A0B61E6E4E4500500E9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = CAWFZ7636J;
+				INFOPLIST_FILE = TYYWaterFallUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zsc.TYYWaterFallUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TYYWaterFall;
+			};
+			name = Debug;
+		};
+		2659A0B71E6E4E4500500E9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = CAWFZ7636J;
+				INFOPLIST_FILE = TYYWaterFallUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zsc.TYYWaterFallUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TYYWaterFall;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2659A08B1E6E4E4500500E9B /* Build configuration list for PBXProject "TYYWaterFall" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2659A0B01E6E4E4500500E9B /* Debug */,
+				2659A0B11E6E4E4500500E9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2659A0B21E6E4E4500500E9B /* Build configuration list for PBXNativeTarget "TYYWaterFall" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2659A0B31E6E4E4500500E9B /* Debug */,
+				2659A0B41E6E4E4500500E9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2659A0B51E6E4E4500500E9B /* Build configuration list for PBXNativeTarget "TYYWaterFallUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2659A0B61E6E4E4500500E9B /* Debug */,
+				2659A0B71E6E4E4500500E9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2659A0881E6E4E4500500E9B /* Project object */;
+}
